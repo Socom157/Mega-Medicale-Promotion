@@ -55,10 +55,10 @@
     .boite{
         display: flex;
         flex-direction: column;
-        margin-left: -2vw;
+       
     }
     .decallien{
-        margin-left: -18vw;
+        margin-left: 1vw;
         font-family: 'Montserrat';
         font-size: 17px;
     }
@@ -70,7 +70,7 @@
         width:100%;
         display: flex;
         background-color: transparent;
-
+        border-bottom: 1px solid #ec5353;
         
     }
     .logo{
@@ -92,7 +92,7 @@
         font-weight: bold;
         color: #df3333;
     }
-    ul{
+    .menuUl{
         list-style: none;
         display: flex;
         justify-content: center;
@@ -192,4 +192,77 @@
         border: 1px solid #1eaa25;
         padding: 10px;
         border-radius: 10px;
+    }
+    .boxx{
+        display: flex;
+        width: 100%;
+        gap: 5%;
+       
+    }
+    .boxx1{
+        width: 40%;
+        padding: 10px;
+        background-color: #ffffff;
+        margin-left: 5%;
+        border-radius: 5px;
+        box-shadow: 0.03px 0.3px 10px 0.01px rgb(80, 80, 80);
+    }
+    .box1{
+        display: flex;
+        height: 33vh;
+        width: 80%;
+        padding: 10px;
+        margin-left: 15%;
+        margin-top: 5vh;
+    }
+    .iconee{
+        height: 12vh;
+        width: 6vw;
+        padding: 10px;
+        border: 1px solid rgba(219, 219, 219, 0.884);
+        border-radius: 3px;
+        margin-left: -10vw;
+        margin-top: 6.5vh;
+        position:absolute;
+        background-color: #ffffff;
+    }
+    .flx{
+        display: flex;
+        flex-direction: column;
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    h1{
+        font-family: cursive;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 5vh;
+        color: #00a508;
+        text-align: center;
+    }
+    .txt{
+        font-family: cursive;
+        font-size: 18px;
+        padding: 20px;
+        background-color: #fff0f0;
+        border-radius: 8px;
+        border-left: 5px solid rgb(219, 0, 0);
+        margin-top: 6vh;
+        margin-bottom: 10vh;
+        margin-left:15% ;
+        width: 70%;
+    }
+    .parag{
+        margin: 5px;
+    }
+    .fa-solid{
+        padding: 20px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        margin-top: -32vh;
     }

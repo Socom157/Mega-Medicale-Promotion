@@ -194,3 +194,23 @@
         padding: 10px;
         border-radius: 10px;
     }
+
+    .boxx{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+        margin-left: 7.5%;
+    }
+    .box1{
+        height: 33vh;
+        width: 35%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0.2px 0.3px 2px 0.091px black;
+        margin-top: 10vh;
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+    }
