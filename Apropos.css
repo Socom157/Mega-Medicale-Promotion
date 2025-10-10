@@ -61,7 +61,7 @@
         margin-left: -2vw;
     }
     .decallien{
-        margin-left: -18vw;
+        margin-left: 1vw;
         font-family: 'Montserrat';
         font-size: 17px;
         display: flex;
@@ -97,7 +97,7 @@
         font-weight: bold;
         color: #df3333;
     }
-    ul{
+    .menuUl{
         list-style: none;
         display: flex;
         justify-content: center;
@@ -204,7 +204,6 @@
 
     .bgimage{
         width: 100%;
-        filter: blur(1.2px);
         height: 45vh;
         object-fit: cover;
         position: relative;
@@ -213,9 +212,12 @@
         font-size: 65px;
         font-weight: bold;
         position: absolute;
-        color: rgb(236, 61, 61);
+        color: rgb(124, 0, 0);
         margin-top: -30vh;
         margin-left: 4vw; 
+        /*background-color: rgba(255, 255, 255, 0.527);
+        padding: 10px;
+        border-radius: 20px;*/
         font-family:cursive;
     }
 
@@ -300,4 +302,68 @@
     .box.show {
         opacity: 1;
         transform: translateY(0);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .imgbg {
+        width: 100vw;
+        height: 90vh;
+        margin-bottom: 0;
+         /* fondu */
+    }
+    .mega{
+        font-size: 25px;
+        width: 30%;
+        margin-left: 35%;
+        text-align: center;
+        font-family: 'Montserrat';
+        color: #1eaa25;
+        font-weight: bold;
+        margin-top: 10vh;
+        margin-bottom: 30vh;
+        border: 1px solid #1eaa25;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .txte{
+        font-family: cursive;
+        font-size: 18px;
+        padding: 20px;
+        background-color: #fff0f0;
+        border-radius: 8px;
+        border-left: 5px solid rgb(219, 0, 0);
+        margin-top: 6vh;
+        margin-bottom: 10vh;
+        margin-left:15% ;
+        width: 70%;
+    }
+    .entete{
+        text-align: center;
+        margin-top: 20vh;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 10px 10px 0 0;
+        background-color: #dfffdf;
+        font-size: 42px;
+        font-family: cursive;
+        color: #007900;
+        font-weight: bold;
+        border-bottom: 2px solid #007900;
     }

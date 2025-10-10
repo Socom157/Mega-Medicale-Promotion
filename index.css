@@ -58,7 +58,7 @@
         margin-left: -2vw;
     }
     .decallien{
-        margin-left: -18vw;
+        margin-left: 1vw;
         font-family: 'Montserrat';
         font-size: 17px;
     }
@@ -177,7 +177,6 @@
         width: 100vw;
         height: 90vh;
         margin-bottom: 0;
-         /* fondu */
     }
     .mega{
         font-size: 25px;

@@ -262,7 +262,7 @@
     
     .bgimage{
         width: 100%;
-        filter: blur(1.5px);
+        
         height: 45vh;
         object-fit: cover;
         position: relative;
@@ -271,7 +271,7 @@
         font-size: 65px;
         font-weight: bold;
         position: absolute;
-        color: rgb(236, 61, 61);
+        color: rgb(13, 116, 0);
         margin-top: -30vh;
         margin-left: 4vw; 
         font-family:cursive;
@@ -309,21 +309,33 @@
     }
 
     .part{
-        margin-top: 20vh;
+        margin-top: 15vh;
         display: flex;
         flex-wrap: nowrap;
         gap: 7vw;
         justify-content: center;
     }
     .partimg{
-        height: 12vh;
-        width: 6vw;
-        border-radius: 50%;
+        height: 18vh;
+        width: 10vw;
+        border-radius: 5%;
+        
 
+    }
+    .aaa{
+        color: #005205;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        margin-left: 4vw;
+        transition: all 0.6s ease;
+    }
+    .aaa:hover{
+        color: #03ff10;
     }
     .partimg:hover{
         transition: 0.5s;
-        box-shadow: 1px 1px 3px 1px rgba(38, 189, 0, 0.952);
+        box-shadow: 0.3px 0.5px 3px 0.3px rgba(38, 189, 0, 0.952);
     }
 
 

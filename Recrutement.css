@@ -1,6 +1,7 @@
     body{
         margin: 0;
         padding: 0;
+        background-color: rgb(250, 255, 248);
     }   
     body {
     opacity: 0;
@@ -69,8 +70,8 @@
     header{
         width:100%;
         display: flex;
-        background-color: transparent;
-
+        background-color: white ;
+        border-bottom: 1px solid rgb(189, 189, 189);
         
     }
     .logo{
@@ -212,3 +213,128 @@
         text-align: center;
         font-weight: bold;
     }
+
+    .bx1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38vh;
+        width: 40%;
+        margin-left: 30%;
+        background-color: #f1e6e6;
+        opacity: 0;               /* invisible au départ */
+        transform: translateY(-15vh);
+        transition: all 0.9s ease;
+    }
+    .bx1.show{
+        opacity: 1;               /* devient visible */
+        transform: translateY(0);
+    }
+    .phr1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        padding: 10px;
+
+    }
+    .horizon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+    .hz{
+        
+        width: 45%;
+        height: 8vh;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .input{
+        margin-top: 4vh;       
+        height: 8vh;
+        width: 40%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+    }
+    .inpu{
+        width: 80%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+    }
+    .inpute{
+        
+        width: 84% ;
+        margin-top: 4vh;
+        height: 8vh;
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        
+    }
+    input::placeholder{
+        color: black;
+    }
+    .titre{
+        margin-top: 13vh;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(241, 241, 241);
+        border-radius: 18px;
+        padding: 8px;
+        border-bottom: 3px solid gray;
+    }
+    .smszone{
+        width: 84% ;
+        margin-top: 6vh;
+        height: 15vh;
+        border-radius: 18px ;
+        padding: 10px;
+        font-size: 18px;
+        font-family: 'Montserrat';   
+    }
+    input:hover{
+        box-shadow: 0.3px 0.2px 7px 0.3px rgb(0, 255, 0);
+        transition: all 0.6s ease;
+    }
+    
+    .submitte{
+        width: 25% ;
+        margin-left: 55%;
+        margin-top: 5vh;
+        border-radius: 15px ;
+        background-color: white;
+        border: 2px solid green;
+        color: green;
+        font-weight: bold;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';   
+        transition: all 0.9s ease;
+    }
+    .submitte:hover{
+        background-color: green;
+        color: white;
+    }
+    
