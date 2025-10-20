@@ -12,6 +12,19 @@
     opacity: 1;
     }
     
+    .menuAF{
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 3px;
+        background-color: transparent;
+        color: #007900;
+        border: 1px solid rgb(21, 180, 0);
+        width: auto;
+        display: none;
+    }
+    .close-btn{
+        display: none;
+    }
 
     body {
       font-family: 'Montserrat', sans-serif;
@@ -59,7 +72,7 @@
         margin-left: -2vw;
     }
     .decallien{
-        margin-left: -18vw;
+        margin-left: 1vw;
         font-family: 'Montserrat';
         font-size: 17px;
     }
@@ -75,13 +88,13 @@
         
     }
     .logo{
-        width: 9vw;
+        width: 12vw;
         height: 14vh;
         margin-left: 2vw;
     }
     nav{
         text-align: center;
-        margin-left:2vw;
+        margin-left:15vw;
         margin-top: 4vh;
         flex-wrap: wrap;
     }
@@ -93,7 +106,7 @@
         font-weight: bold;
         color: #df3333;
     }
-    ul{
+    .menuUl{
         list-style: none;
         display: flex;
         justify-content: center;
@@ -337,4 +350,720 @@
         background-color: green;
         color: white;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:600px){
+
+    .menuAF{
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #007900;
+        border: 1px solid rgb(21, 180, 0);
+        width: auto;
+        margin-left: 28vw;
+        margin-top: 4vh;
+        height: 6vh;
+        
+    }
+    .affiche{
+        display: block;
+    }
+    .cache{
+        display: none;
+    }
+    nav{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        background-color: #e7e7e7;
+        padding: 10px;
+        position:fixed;
+        font-size: 25px;
+        right: 0.5%;
+        top: 5.8%;
+        padding-top: 8vh;
+        z-index: 100;
+    }
+    .close-btn{
+        display: block;
+        margin-left: 55vw;
+        margin-top: -6vh;
+        text-align: center;
+        height: 5.4vh;
+        width: 11vw;
+        position: absolute;
+    }
+
+    .dropdown  {
+        font-family:'Montserrat';
+        font-weight: bold;
+        
+        width: 100%;
+        margin-top: 5px;
+        color: #df3333;
+        margin-left: -5vw;
+    }
+    .btn{
+        margin-left: -44vw;
+        font-size: 20px;
+
+    }
+    .menuUl{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:baseline;
+        gap: 1.5vw;
+        
+    }
+    nav a {
+        flex: 1 0 4px;
+        position: relative;
+        text-decoration: none;
     
+        font-size: 20px;
+        font-family:'Montserrat';
+        font-weight: bold;
+        color: #df3333;
+    }
+    nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px; 
+        height: 2px;
+        background: #df3333;
+        transition: width 0.3s;
+    }
+
+    nav a:hover::after {
+        width: 100%;
+    }
+    nav a.active::after {
+        width: 100%;
+    }
+
+    .deroulUl {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      
+    }
+    .deroula {
+        font-size: 13px;
+        margin-top: 2vh;
+        color: rgb(83, 83, 83);
+    }
+    .deroula:hover {
+        margin-top: 2vh;
+        color: rgb(34, 175, 21);
+        transition: 0.8s;
+    }
+    nav li{
+        list-style: none;
+    }
+    nav ul li:hover ul li ::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px; 
+        height: 2px;
+        background: #f35a5a;
+        transition: width 0.8s;
+    }
+    .deroula:hover::after {
+        width: 100%;
+    }
+    /* Affiche le menu au survol */
+    nav ul li:hover:hover ul {
+        display: block;
+        gap: 2vh;
+        transition:  0.5s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(250, 255, 248);
+    }   
+    body {
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out; /* durée : 1.2s */
+    }
+
+    
+    header{
+        width:100%;
+        display: flex;
+        background-color: white ;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        
+    }
+    .logo{
+        width: 40%;
+        height: 12vh;
+        margin-left: 2vw;
+    }
+    nav{
+        text-align: center;
+        margin-left:15vw;
+        margin-top: 4vh;
+        flex-wrap: wrap;
+    }
+    
+
+    .imgbg {
+        width: 100vw;
+        height: 90vh;
+        margin-bottom: 0;
+         /* fondu */
+    }
+    
+    .boxx{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+        margin-left: 7.5%;
+    }
+    .box1{
+        height: 33vh;
+        width: 35%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0.2px 0.3px 2px 0.091px black;
+        margin-top: 10vh;
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .bx1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38vh;
+        width: 100%;
+        margin-left: 0%;
+        background-color: #f1e6e6;
+        opacity: 0;               /* invisible au départ */
+        transform: translateY(-15vh);
+        transition: all 0.9s ease;
+        position: relative;
+    }
+    .bx1.show{
+        opacity: 1;               /* devient visible */
+        transform: translateY(0);
+    }
+    .phr1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin-left: 0;
+
+    }
+    .horizon{
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hz{
+        
+        width: 100%;
+        height: 8vh;
+        margin-left: 0%;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items:normal;
+        
+        
+    }
+    .input{
+        margin-top: 1.5vh;       
+        height: 8vh;
+        width: 90%;
+        margin-left: 5%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+    label{
+        margin-left: 5%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .inpu{
+        width: 90%;
+        margin-left: 5%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+    }
+    .inpute{
+        
+        width: 90% ;
+        margin-left: 5%;
+        margin-top: 4vh;
+        height: 8vh;
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        
+    }
+    input::placeholder{
+        color: black;
+    }
+    .titre{
+        margin-top: 10vh;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(241, 241, 241);
+        border-radius: 18px;
+        padding: 8px;
+        border-bottom: 3px solid gray;
+    }
+    .smszone{
+        width: 84% ;
+        margin-top: 6vh;
+        height: 15vh;
+        border-radius: 18px ;
+        padding: 10px;
+        font-size: 18px;
+        font-family: 'Montserrat';   
+    }
+    input:hover{
+        box-shadow: 0.3px 0.2px 7px 0.3px rgb(0, 255, 0);
+        transition: all 0.6s ease;
+    }
+    
+    .submitte{
+        width: 35% ;
+        margin-left: 50%;
+        margin-top: 5vh;
+        border-radius: 15px ;
+        background-color: white;
+        border: 2px solid green;
+        color: green;
+        font-weight: bold;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';   
+        transition: all 0.9s ease;
+    }
+    .submitte:hover{
+        background-color: green;
+        color: white;
+    }
+
+  }  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media screen and (min-width: 601px) and (max-width: 1024px){
+   .menuAF{
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #007900;
+        border: 1px solid rgb(21, 180, 0);
+        width: auto;
+        margin-left: 40%;
+        margin-top: 4vh;
+        height: 6vh;
+        width: 15%;
+        
+    }
+    .affiche{
+        display: block;
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .cache{
+        display: none;
+    }
+    nav{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        background-color: #e7e7e7;
+        padding: 10px;
+        position:fixed;
+        font-size: 25px;
+        right: 0.5%;
+        top: -3%;
+        padding-top: 8vh;
+        opacity: 0;
+        transform: translateX(10vw);
+        transition: all 0.8s ease;
+        z-index: 100;
+    }
+    .close-btn{
+        display: block;
+        margin-left: 40vw;
+        margin-top: -6vh;
+        text-align: center;
+        height: 5.4vh;
+        width: 11vw;
+        position: absolute;
+    }
+
+    .dropdown  {
+        font-family:'Montserrat';
+        font-weight: bold;
+        
+        width: 100%;
+        margin-top: 5px;
+        color: #df3333;
+        margin-left: -5vw;
+    }
+    .btn{
+        margin-left: -44vw;
+        font-size: 20px;
+
+    }
+    .phr1{
+        font-size: 65px;
+        font-weight: bold;
+        position: absolute;
+        color: rgb(124, 0, 0);
+        margin-top: -35vh;
+        margin-left: 4vw; 
+        /*background-color: rgba(255, 255, 255, 0.527);
+        padding: 10px;
+        border-radius: 20px;*/
+        font-family:cursive;
+        position: static;
+    }
+    .menuUl{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items:baseline;
+        gap: 1.5vw;
+        
+    }
+    nav a {
+        flex: 1 0 4px;
+        position: relative;
+        text-decoration: none;
+    
+        font-size: 20px;
+        font-family:'Montserrat';
+        font-weight: bold;
+        color: #df3333;
+    }
+    nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px; 
+        height: 2px;
+        background: #df3333;
+        transition: width 0.3s;
+    }
+
+    nav a:hover::after {
+        width: 100%;
+    }
+    nav a.active::after {
+        width: 100%;
+    }
+
+    .deroulUl {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      
+    }
+    .deroula {
+        font-size: 13px;
+        margin-top: 2vh;
+        color: rgb(83, 83, 83);
+    }
+    .deroula:hover {
+        margin-top: 2vh;
+        color: rgb(34, 175, 21);
+        transition: 0.8s;
+    }
+    nav li{
+        list-style: none;
+    }
+    nav ul li:hover ul li ::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px; 
+        height: 2px;
+        background: #f35a5a;
+        transition: width 0.8s;
+    }
+    .deroula:hover::after {
+        width: 100%;
+    }
+    /* Affiche le menu au survol */
+    nav ul li:hover:hover ul {
+        display: block;
+        gap: 2vh;
+        transition:  0.5s;
+    }
+
+
+
+
+
+
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(250, 255, 248);
+    }   
+    body {
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out; /* durée : 1.2s */
+    }
+
+    
+    header{
+        width:100%;
+        display: flex;
+        background-color: white ;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        
+    }
+    .logo{
+        width: 12vw;
+        height: 14vh;
+        margin-left: 2vw;
+    }
+    nav{
+        text-align: center;
+        margin-left:15vw;
+        margin-top: 4vh;
+        flex-wrap: wrap;
+    }
+    
+
+    .imgbg {
+        width: 100vw;
+        height: 90vh;
+        margin-bottom: 0;
+         /* fondu */
+    }
+    
+    .boxx{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+        margin-left: 7.5%;
+    }
+    .box1{
+        height: 33vh;
+        width: 35%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0.2px 0.3px 2px 0.091px black;
+        margin-top: 10vh;
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .bx1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38vh;
+        width: 100%;
+        margin-left: 0%;
+        background-color: #f1e6e6;
+        opacity: 0;               /* invisible au départ */
+        transform: translateY(-15vh);
+        transition: all 0.9s ease;
+    }
+    .bx1.show{
+        opacity: 1;               /* devient visible */
+        transform: translateY(0);
+    }
+    .phr1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1px;
+        margin-left: 0;
+
+    }
+    .horizon{
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hz{
+        
+        width: 100%;
+        height:auto;
+        margin-left: 0%;
+        margin-top: 4vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+        align-items:normal;
+        
+        
+    }
+    .input{
+        margin-top: 1.5vh;       
+        height: 8vh;
+        width: 90%;
+        margin-left: 1%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 3px;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+    label{
+        margin-left: 5%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .inpu{
+        width: 90%;
+        margin-left: 5%;
+        border: 2px solid rgb(214, 214, 214);
+        border-radius: 23px ;
+        padding: 3px;
+        height: 2vh;
+        font-size: 18px;
+        font-family: 'Montserrat';
+    }
+    .inpute{
+        
+        width: 90% ;
+        margin-left: 1%;
+        margin-top: 4vh;
+        height: 3vh;
+        border-radius: 23px ;
+        padding: 8px;
+        font-size: 18px;
+        font-family: 'Montserrat';
+        
+    }
+    input::placeholder{
+        color: black;
+    }
+    .titre{
+        margin-top: 10vh;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(241, 241, 241);
+        border-radius: 18px;
+        padding: 8px;
+        border-bottom: 3px solid gray;
+    }
+    .smszone{
+        width: 84% ;
+        margin-top: 6vh;
+        height: 15vh;
+        border-radius: 18px ;
+        padding: 10px;
+        font-size: 18px;
+        font-family: 'Montserrat';   
+    }
+    input:hover{
+        box-shadow: 0.3px 0.2px 7px 0.3px rgb(0, 255, 0);
+        transition: all 0.6s ease;
+    }
+    
+    .submitte{
+        width: 35% ;
+        margin-left: 50%;
+        margin-top: 5vh;
+        border-radius: 15px ;
+        background-color: white;
+        border: 2px solid green;
+        color: green;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 22px;
+        font-family: 'Montserrat';   
+        transition: all 0.9s ease;
+    }
+    .submitte:hover{
+        background-color: green;
+        color: white;
+    }
+    
+}

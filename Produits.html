@@ -16,9 +16,11 @@
 </head>
 <body>
     <header>
-        <img src="./outils visuel/logo.png" alt="" class="logo">
-        <nav>
+        <img src="./outils visuel/logoNouveau.PNG" alt="" class="logo">
+        <button class="menuAF" id="bouton">MENU ☰</button>
+        <nav id="nav">
             <ul class="menuUl">
+                <button class="close-btn" id="fermer">&times;</button>
                 <li ><a href="./Apropos.html" class="menuliste">A propos</a></li>
                 
                 <div class="dropdown">
@@ -58,23 +60,23 @@
         </svg>
 
         <div class="step step1">
-            <div class="circle" style="top:11vh; left:5.1vw;">01</div>
-            <a href="" class="bar" style="top:11vh; left:9vw;">Pharmaceutique</a>
+            <div class="circle circle1" >01</div>
+            <a href="" class="bar bar1">Pharmaceutique</a>
         </div>
 
         <div class="step step2">
-            <div class="circle" style="top:26.5vh; left:3vw;">02</div>
-            <a href="" class="bar" style="top:26.5vh; left:7.2vw;">Équipements médicaux</a>
+            <div class="circle circle2" >02</div>
+            <a href="" class="bar bar2" >Équipements médicaux</a>
         </div>
 
         <div class="step step3">
-            <div class="circle" style="top:43vh; left:3vw;">03</div>
-            <a href="" class="bar" style="top:43vh; left:7.2vw;">Consommables médicaux</a>
+            <div class="circle circle3" >03</div>
+            <a href="" class="bar bar3" >Consommables médicaux</a>
         </div>
 
         <div class="step step4">
-            <div class="circle" style="top:59vh; left:5.1vw;">04</div>
-            <a href=""  class="bar" style="top:59vh; left:9vw;">Hygiène/Prévention</a>
+            <div class="circle circle4">04</div>
+            <a href=""  class="bar bar4">Hygiène/Prévention</a>
         </div>
 
                    
@@ -175,5 +177,6 @@
             document.body.classList.add("loaded");
         });
     </script>
+    <script src="./Aprpos.js"></script>
 </body>
 </html>

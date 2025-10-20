@@ -15,9 +15,12 @@
 </head>
 <body>
     <header>
-        <img src="./outils visuel/logo.png" alt="" class="logo">
-        <nav>
+        <img src="./outils visuel/logoNouveau.PNG" alt="" class="logo">
+        <button class="menuAF" id="bouton">MENU ☰</button>
+        <nav id="nav">
             <ul class="menuUl">
+                <button class="close-btn" id="fermer">&times;</button>
+
                 <li ><a href="./Apropos.html" class="active">A propos</a></li>
                 
                 <div class="dropdown">
@@ -44,15 +47,15 @@
             </ul>
         </nav> 
     </header>
-    <div>
+    <div id="fermer">
         <img src="./outils visuel/pexels-pavel-danilyuk-7658414.jpg" alt="" class="bgimage">
         <p class="phr1">A Propos de nous</p>
     </div>
-    <div class="row">
-        <div class="col-12">
+    <div id="fermer">
+        <div class="col-12" id="fermer">
             <div class="box">
                 <div class="box0">
-                    <img src="./outils visuel/logo.png" alt="" class="bx0">
+                    <img src="./outils visuel/logoNouveau.PNG" alt="" class="bx0">
                     <div class="bx1">
                         <p class="titre">Qui sommes nous ?</p>
                         <p class="txt">
@@ -229,6 +232,7 @@
             document.body.classList.add("loaded");
         });
     </script>
+    <script src="./Aprpos.js"></script>
 
 </body>
 </html>

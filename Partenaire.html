@@ -15,9 +15,11 @@
 </head>
 <body>
     <header>
-        <img src="./outils visuel/logo.png" alt="" class="logo">
-        <nav>
+        <img src="./outils visuel/logoNouveau.PNG" alt="" class="logo">
+        <button class="menuAF" id="bouton">MENU ☰</button>
+        <nav id="nav">
             <ul class="menuUl">
+                <button class="close-btn" id="fermer">&times;</button>
                 <li ><a href="./Apropos.html" class="menuliste">A propos</a></li>
                 
                 <div class="dropdown">
@@ -44,7 +46,7 @@
             </ul>
         </nav> 
     </header>
-     <div>
+    <div>
         <img src="./outils visuel/pexels-fauxels-3184416.jpg" alt="" class="bgimage">
         <p class="phr1">NOS PARTENAIRES</p>
     </div>
@@ -82,8 +84,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-12">
-            <div class="box">
+        <div >
+            <div class="boxe">
                 <p class="intr">Vous souhaitez devenir partenaire ? 
                     <b>Contactez-nous</b> pour explorer les opportunités de collaboration.
                 </p>
@@ -169,5 +171,6 @@
             document.body.classList.add("loaded");
         });
     </script>
+    <script src="./Aprpos.js"></script>
 </body>
 </html>
