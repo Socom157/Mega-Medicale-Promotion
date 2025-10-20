@@ -512,7 +512,7 @@
     }
     .ouver{
         font-size: 18px;
-        font-family: cursive;
+        font-family:'Montserrat';
         width: 80%;
         margin-top: 8vh;
         margin-left: 10%;
@@ -532,7 +532,7 @@
         margin-left: 10%;
         text-align: center;
         font-size: 25px;
-        font-family: cursive;
+        font-family:'Montserrat';
         font-weight: bold;
         color: #007900;
     }
@@ -540,7 +540,7 @@
         font-size: 18px;
         margin-top: 2vh;
         margin-bottom: 1vh;
-        font-family: cursive;
+        font-family:'Montserrat';
         font-weight: bold;
         color: #004900;
     }
@@ -561,7 +561,7 @@
 
     .bout{
         font-size: 19px;
-        font-family: cursive;
+        font-family:'Montserrat';
         font-weight: bold;
     }
     .bout:hover{
