@@ -70,16 +70,16 @@
     </div>
     <p class="ouver">Disponible 24h/24 et 7j/7</p>
 
-    <form action="">
+    <form action="./contact.php" method="post">
         <label for="" class="titrf">Envoyer un message</label>
         <label for="N">Nom et Prénom</label>
-        <input type="text" name="" id="N" required placeholder="Entrez votre nom et prénom...">
+        <input type="text" name="nom" id="N" required placeholder="Entrez votre nom et prénom...">
         <label for="E">E-mail</label>
-        <input type="email" name="" id="E" required placeholder="Entrez votre email...">
+        <input type="email" name="email" id="E" required placeholder="Entrez votre email...">
         <label for="O">Objet</label>
-        <input type="text" name="" id="" placeholder="Sujet du message">
+        <input type="text" name="objet" id="" placeholder="Sujet du message">
         <label for="M" >Message</label>
-        <textarea name="" id="M" placeholder="saisir votre message..." required class="tes"></textarea>
+        <textarea name="message" id="M" placeholder="saisir votre message..." required class="tes"></textarea>
         <input type="submit" value="ENVOYER" class="bout">
     </form>
 
