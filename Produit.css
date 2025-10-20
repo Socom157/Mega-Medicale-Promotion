@@ -638,8 +638,8 @@
     /* Couleurs */
     .step1 .circle, .step1 .bar { background: #3ebb05; }
     .step2 .circle, .step2 .bar { background:  #165f16; }
-    .step3 .circle, .step3 .bar { background:  #ff1515; }
-    .step4 .circle, .step4 .bar { background: #f01c00; }
+    .step3 .circle, .step3 .bar { background:  #ff3939; }
+    .step4 .circle, .step4 .bar { background: hsl(7, 100%, 70%); }
     .step5 .circle, .step5 .bar { background: #00a99d; }
     .step6 .circle, .step6 .bar { background: #8cc63f; }
 
