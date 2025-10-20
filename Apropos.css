@@ -654,7 +654,7 @@
     }
     .titre{
         font-size: 15px;
-        font-family: cursive;
+        font-family:'Montserrat';
         text-align: center;
         color: #0cbe15;
         
@@ -691,7 +691,7 @@
 
 
     .txte{
-        font-family: cursive;
+        font-family:'Montserrat';
         font-size: 13px;
         padding: 20px;
         background-color: #fff0f0;
