@@ -529,7 +529,7 @@
         font-size: 17px;
     }
     h1{
-        font-family: cursive;
+        font-family:'Montserrat';
         width: 50%;
         font-size: 25px;
         margin-left: 25%;
@@ -538,7 +538,7 @@
         text-align: center;
     }
     .txt{
-        font-family: cursive;
+        font-family:'Montserrat';
         font-size: 15px;
         padding: 10px;
         background-color: #fff0f0;
