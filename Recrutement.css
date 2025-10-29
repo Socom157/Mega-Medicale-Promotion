@@ -896,8 +896,8 @@
         
     }
     .logo{
-        width: 12vw;
-        height: 14vh;
+        width: 40%;
+        height: 12vh;
         margin-left: 2vw;
     }
     nav{
@@ -952,8 +952,9 @@
         transform: translateY(0);
     }
     .phr1{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
+        margin-top: 5vh;
     }
     form{
         display: flex;
@@ -990,12 +991,12 @@
         border: 2px solid rgb(214, 214, 214);
         border-radius: 23px ;
         padding: 3px;
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Montserrat';
     }
     label{
         margin-left: 5%;
-        font-size: 17px;
+        font-size:22px;
         font-weight: bold;
     }
     .inpu{
@@ -1003,9 +1004,9 @@
         margin-left: 5%;
         border: 2px solid rgb(214, 214, 214);
         border-radius: 23px ;
-        padding: 3px;
+        padding: 8px;
         height: 2vh;
-        font-size: 18px;
+        font-size: 23px;
         font-family: 'Montserrat';
     }
     .inpute{
@@ -1016,7 +1017,7 @@
         height: 3vh;
         border-radius: 23px ;
         padding: 8px;
-        font-size: 18px;
+        font-size: 30px;
         font-family: 'Montserrat';
         
     }
@@ -1039,7 +1040,7 @@
         height: 15vh;
         border-radius: 18px ;
         padding: 10px;
-        font-size: 18px;
+        font-size: 30px;
         font-family: 'Montserrat';   
     }
     input:hover{
