@@ -269,7 +269,7 @@
     .option{
         margin-top: 10vh;
     }
-    .menulis{
+    .menulist{
         margin-right: 10vw;
         text-decoration: none;
         padding: 10px;
@@ -279,14 +279,14 @@
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menulis:hover{
+    .menulist:hover{
         transition: 0.8s;
         background-color:rgb(238, 19, 19) ;
         color: white;
     }
-    .menuli{
+    .menulit{
         margin-top: 10vh;
-        margin-right: 10vw;
+        margin-left:10vw;
         text-decoration: none;
         padding: 10px;
         font-size: 20px;
@@ -295,7 +295,7 @@
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menuli:hover{
+    .menulit:hover{
         transition: 0.8s;
         background-color:rgb(238, 19, 19) ;
         color: white;
@@ -469,6 +469,12 @@
         display: block;
         gap: 2vh;
         transition:  0.5s;
+    }
+    video{
+        width:100%;
+        height:50vh;
+        margin-left:0%;
+        margin-top:2vh;
     }
 
 
@@ -657,14 +663,14 @@
 
     .imgbg {
         width: 100vw;
-        height: 60vh;
+        height: 48vh;
         margin-bottom: 0;
         position: relative;
     }
     .mega{
-        font-size: 17px;
+        font-size: 18px;
         width: 80%;
-        margin-left: 10%;
+        margin-left: 5%;
         text-align: center;
         font-family: 'Montserrat';
         color: #1eaa25;
@@ -675,30 +681,30 @@
         padding: 10px;
         border-radius: 10px;
     }
-    
-    .carousel-caption {
-        top: 15vh;  /* remonte ou descend le bloc */
-        left: 10%;      /* décale vers la gauche ou droite */
-        background-color: #ffffffa2;
+
+    .boxes {
+        top: 5vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
         border-radius: 5px;
-        height: 30vh;
-        width: 60%;
+        height: 25vh;
+        width: 85%;
 
     }
 
     .carousel-caption h2 {
-        color: #13a300; /* vert exemple */
+        color: #0f8100ff; /* vert exemple */
         font-family:Verdana, Geneva, Tahoma, sans-serif; /* police personnalisée */
-        font-size: 45px;
+        font-size: 20px;
         font-weight: bol;
         width: 90%;
-        margin-bottom: 5vh;
+        margin-bottom: 1vh;
 
     }
     .carousel-caption h3 {
         color: #13a300; /* vert exemple */
         font-family:cursive; /* police personnalisée */
-        font-size: 45px;
+        font-size: 20px;
         font-weight: bol;
         width: 90%;
         margin-top: -2vh;
@@ -708,7 +714,9 @@
 
     .carousel-caption h4 {
         margin-bottom: 20px; /* espace sous le paragraphe */
-        width: 80%;
+        width: 95%;
+        margin-left:5px;
+        font-size:18px;
         color: black;
         font-weight: bold;
     }
@@ -718,8 +726,21 @@
         color: black;
         word-spacing: 4px;
         text-align: center;
+        font-size:15px;
     }
-
+    .boxeess{
+        top: 5vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
+        border-radius: 5px;
+        height: 37vh;
+        width: 85%;
+        
+    }
+    .boxxes{
+        background-color:transparent;
+        display:none;
+    }
     /* Effet d'apparition fluide de toute la page */
     body {
     opacity: 0;
@@ -731,47 +752,59 @@
     }
 
     .option{
-        margin-top: 10vh;
+        margin-top: 6vh;
+        width:100%
     }
     .optio{
-        margin-top: 20vh;
+        margin-top: 2vh;
     }
-    .option{
-        margin-top: 10vh;
-    }
-    .menulis{
-        margin-right: 10vw;
+    .menulist{
         text-decoration: none;
-        padding: 10px;
-        font-size: 20px;
+        padding: 3px;
+        margin-top:2vh;
+        font-size: 18px;
         font-family: cursive;
         border: 1px solid rgb(238, 19, 19);
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menulis:hover{
+    .menulist:hover{
         transition: 0.8s;
+
         background-color:rgb(238, 19, 19) ;
         color: white;
     }
-    .menuli{
-        margin-top: 10vh;
-        margin-right: 10vw;
+    .menulit{
+        margin-top: 1vh;
+        margin-left:3vw;
+        margin-top:2vh;
         text-decoration: none;
-        padding: 10px;
-        font-size: 20px;
+        padding: 3px;
+        font-size: 17px;
         font-family: cursive;
         border: 1px solid rgb(238, 19, 19);
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menuli:hover{
+    .menulit:hover{
         transition: 0.8s;
         background-color:rgb(238, 19, 19) ;
         color: white;
     }
     .contai{
         color: black;
+        z-index:100;
+        font-size: 16px;
+        display:none;
+    }
+    .boxxes{
+        top: 2vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
+        border-radius: 5px;
+        height: 40vh;
+        width: 93%;
+        
     }
 
     .cout{
@@ -780,7 +813,9 @@
 
    
 }
-
+.h2{
+    font-size:15px;
+}
 
 
 
@@ -1119,13 +1154,14 @@
 
     .imgbg {
         width: 100vw;
-        height: 60vh;
+        height: 48vh;
         margin-bottom: 0;
+        position: relative;
     }
     .mega{
-        font-size: 17px;
+        font-size: 18px;
         width: 80%;
-        margin-left: 10%;
+        margin-left: 5%;
         text-align: center;
         font-family: 'Montserrat';
         color: #1eaa25;
@@ -1137,29 +1173,29 @@
         border-radius: 10px;
     }
 
-    .carousel-caption {
-        top: 15vh;  /* remonte ou descend le bloc */
-        left: 10%;      /* décale vers la gauche ou droite */
-        background-color: #ffffffa2;
+    .boxes {
+        top: 10vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
         border-radius: 5px;
-        height: 30vh;
-        width: 60%;
+        height: 18vh;
+        width: 70%;
 
     }
 
     .carousel-caption h2 {
-        color: #13a300; /* vert exemple */
-        font-family:Verdana, Geneva, Tahoma, sans-serif; /* police personnalisée */
-        font-size: 45px;
+        color: #0f8100ff; /* vert exemple */
+        font-family:'montserrat'; /* police personnalisée */
+        font-size: 40px;
         font-weight: bol;
         width: 90%;
-        margin-bottom: 5vh;
+        margin-bottom: 1vh;
 
     }
     .carousel-caption h3 {
         color: #13a300; /* vert exemple */
         font-family:cursive; /* police personnalisée */
-        font-size: 45px;
+        font-size: 30px;
         font-weight: bol;
         width: 90%;
         margin-top: -2vh;
@@ -1169,7 +1205,9 @@
 
     .carousel-caption h4 {
         margin-bottom: 20px; /* espace sous le paragraphe */
-        width: 80%;
+        width: 95%;
+        margin-left:5px;
+        font-size:18px;
         color: black;
         font-weight: bold;
     }
@@ -1180,7 +1218,17 @@
         word-spacing: 4px;
         text-align: center;
     }
-
+    .boxeess{
+        top: 5vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
+        border-radius: 5px;
+        height: 24vh;
+        width: 85%;
+    }
+    .boxxes{
+        background-color:transparent;
+    }
     /* Effet d'apparition fluide de toute la page */
     body {
     opacity: 0;
@@ -1192,51 +1240,65 @@
     }
 
     .option{
-        margin-top: 10vh;
+        margin-top: 8vh;
+        width:100%
     }
     .optio{
-        margin-top: 20vh;
+        margin-top: 6vh;
     }
-    .option{
-        margin-top: 10vh;
-    }
-    .menulis{
-        margin-right: 10vw;
+    .menulist{
+        margin-right: 5%;
         text-decoration: none;
-        padding: 10px;
-        font-size: 20px;
+        padding: 3px;
+        font-size: 25px;
         font-family: cursive;
         border: 1px solid rgb(238, 19, 19);
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menulis:hover{
+    .menulist:hover{
         transition: 0.8s;
         background-color:rgb(238, 19, 19) ;
         color: white;
     }
-    .menuli{
-        margin-top: 10vh;
-        margin-right: 10vw;
+    .menulit{
+        margin-left: 5vw;
+        margin-left:3vw;
         text-decoration: none;
-        padding: 10px;
-        font-size: 20px;
+        padding: 3px;
+        font-size: 25px;
         font-family: cursive;
         border: 1px solid rgb(238, 19, 19);
         color:rgb(238, 19, 19) ;
         border-radius: 5px;
     }
-    .menuli:hover{
+    .menulit:hover{
         transition: 0.8s;
         background-color:rgb(238, 19, 19) ;
         color: white;
     }
     .contai{
         color: black;
+        z-index:100;
+        font-size: 19px;
+    }
+    .boxxes{
+        top: 1vh;  /* remonte ou descend le bloc */
+        left: 5%;      /* décale vers la gauche ou droite */
+        background-color: #ffffff91;
+        border-radius: 5px;
+        height: 40vh;
+        width: 92%;
+        
     }
 
     .cout{
         margin-left: 5vw;
     }
+
+   
+}
+.h2{
+    font-size:25px;
 
 }
